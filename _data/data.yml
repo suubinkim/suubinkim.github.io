@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: 김수빈
+  tagline: 백엔드 개발자
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: 0vbbbv0@email.com
+  phone: 010 2562 4013
+  website: https://soupnn.tistory.com
+  github: https://github.com/suubinkim
+
+
+career-profile:
+  title: Profile
+  summary: |
+    Java, Spring Boot 기반의 3년차 백엔드 개발자로,<br>
+    API 개발과 외부 연동, 일 수십만 건 이상의 트래픽 운영 경험을 통해 안정성과 확장성을 갖춘 서비스를 구축해왔습니다.<br>
+    “서비스는 신뢰 위에 존재한다”는 생각으로 꼼꼼한 검증과 협업을 중시하며,<br>
+    사용자와 팀 모두가 만족할 수 있는 결과물을 만드는 것을 목표로 합니다.
+experiences:
+  title: Career
+  info:
+    - company: "헥토 데이터"
+      time: "2022.05 - 2025.09"
+      role: "Backend Engineer"
+      positions:
+        - team: "신사업 개발팀"
+          time: "2024.11 - 2025.09"
+          details: |
+            - 사용자·관리자용 CRUD API 설계 및 구현
+            - Firebase Cloud Messaging(FCM)을 활용한 앱 푸시 서비스 개발
+            - SQL 기반 데이터 집계 및 실시간 모니터링 기능을 갖춘 어드민 통계 페이지 구축
+        - team: "API 개발팀"
+          time: "2022.05 - 2024.11"
+          details: |
+            - 코드에프 API 신규 기능 개발 및 기존 비즈니스 로직 개선·유지보수
+              - 일일 40만 건 이상의 요청을 처리하는 백엔드 시스템을 운영·모니터링
+              - <a href="https://codef.io/" target="_blank">https://codef.io/</a>
+            - B2B 기업 고객사의 문의 대응 및 기술 지원 (기술 문의 게시판, 전화 문의)
+            - 금융사 온프레미스 환경에 구축형 API 설치 및 설정, 운영 중 발생한 오류 분석·대응
+              - 리눅스 기반 서버·Docker·MySQL 환경 설정 관리 및 운영 최적화
+            - 대규모 배치 작업을 Spring Batch/Quartz로 리팩터링하여 데이터 처리 속도 향상과 운영 안정성 확보
+              - 관련 블로그 포스팅 <a href="https://blog.hectodata.co.kr/apitim-seupeuring-baeci-doibgi/" target="_blank">https://blog.hectodata.co.kr/apitim-seupeuring-baeci-doibgi/</a>
+            - 쿼리 구조 최적화를 통해 홈페이지 대시보드 API 응답 속도를 25초 → 5초로 단축
+projects:
+  title: Experiences
+  info:
+    - name: "스파르타코딩클럽 내일배움캠프"
+      time: "2021-09 ~ 2022-01"
+      role: "습관·목표 관리 웹 애플리케이션 백엔드"
+      details: |
+        - Spring Security, JWT 및 Kakao OAuth 기반 로그인/인증 기능 구현
+        - Spring Data JPA & MySQL 기반 챌린지·피드 관리 기능 개발
+        - Spring Rest Docs 자동문서화
+        - GitHub Actions CI/CD, AWS EB/ECR/S3/CloudFront 인프라 구성
+        - <a href="https://github.com/fever-time/challenge-backend" target="_blank">https://github.com/fever-time/challenge-backend</a>
+    - name: "IT 연합 동아리 YAPP"
+      time: "2022.05 - 2022.08"
+      role: "칭찬 메시지 공유형 커뮤니티 웹 애플리케이션 백엔드"
+      details: |
+        - Java 8, Spring Boot, MySQL 기반 REST API 설계 및 구현
+        - Git Flow 기반 브랜치 전략 및 PR → 코드 리뷰 프로세스 적용
+        - Naver Cloud 서버에 SSH 접속 후 수동 배포(nohup, JAR 실행, 로그 확인)
+        - JUnit 5 기반 단위 테스트 작성 및 Gradle 빌드 운영
+        - <a href="https://github.com/YAPP-Github/20th-Web-Team-1-BE" target="_blank">https://github.com/YAPP-Github/20th-Web-Team-1-BE</a>
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Languages - Java, Javascript
+  - name: Frameworks - Spring Boot, Spring Batch
+  - name: Database / ORM - MySQL, JPA, queryDSL, MyBatis
+
+certifications:
+  title: Certifications
+  list:
+    - name: 정보처리기사
+      start: 2024-12-11
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
